@@ -10,7 +10,7 @@ pipeline{
         }
 
         stage("Run testing"){
-            step{
+            steps{
                 bat 'npm run test'
             }
 
